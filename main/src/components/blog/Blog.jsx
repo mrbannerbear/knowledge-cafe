@@ -1,12 +1,9 @@
-import PropTypes from 'prop-types'; // ES6
+import PropTypes from "prop-types"; // ES6
 
 const Blog = (props) => {
   const { cover_image, blog_title, author, date, reading_time, category } =
     props.blog;
-
-    const handleBookmarkClick = () => {
-        
-    }
+  const handleBookmarkClick = props.handleBookmarkClick;
 
   return (
     <div className="my-8 w-2/3 px-0">
@@ -26,14 +23,19 @@ const Blog = (props) => {
             </div>
             <div className="font-semibold text-xs text-neutral-500">
               {reading_time}{" "}
-              <button onClick={handleBookmarkClick} className="ml-2">
+              <button
+                onClick={() => handleBookmarkClick(blog_title)}
+                className="ml-2"
+              >
                 <i className="{`${handleBookmarkClick() ? fa-solid : fa-regular}`} fa-bookmark"></i>
               </button>
             </div>
           </div>
           <a className="px-0 w-max hover:cursor-pointer">
             {" "}
-            <h3 className="my-3 font-semibold text-3xl hover:underline">{blog_title} </h3>
+            <h3 className="my-3 font-semibold text-3xl hover:underline">
+              {blog_title}{" "}
+            </h3>
           </a>
           <div className="font-semibold text-sm text-neutral-500">
             <a className="hover:cursor-pointer">{category}</a>
@@ -50,7 +52,7 @@ const Blog = (props) => {
 };
 
 Blog.propTypes = {
-    props: PropTypes.object
-}
+  props: PropTypes.object,
+};
 
 export default Blog;
