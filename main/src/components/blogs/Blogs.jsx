@@ -17,7 +17,7 @@ const Blogs = ({ handleBookmarkClick, handleMarkRead }) => {
           key={blog.id}
           blog={blog}
           handleBookmarkClick={handleBookmarkClick}
-          handleMarkRead = {handleMarkRead}
+          handleMarkRead={handleMarkRead}
         ></Blog>
       ))}
     </div>

@@ -1,5 +1,4 @@
 import PropTypes from "prop-types"; // ES6
-import MarkRead from "../markRead/MarkRead";
 
 const Blog = (props) => {
   const { cover_image, blog_title, author, date, reading_time, category } =
@@ -11,7 +10,7 @@ const Blog = (props) => {
     <div className="my-8 w-2/3 px-0">
       <div className="">
         <img
-          className="lg:w-full lg:h-[380px] rounded-md my-2"
+          className="lg:w-full lg:h-[350px] rounded-md my-2"
           src={cover_image}
           alt=""
         />
@@ -24,7 +23,7 @@ const Blog = (props) => {
               </div>
             </div>
             <div className="font-semibold text-xs text-neutral-500">
-              {reading_time}{" "} min read
+              {reading_time} min read
               <button
                 onClick={() => handleBookmarkClick(blog_title)}
                 className="ml-2"
@@ -43,8 +42,10 @@ const Blog = (props) => {
             <a className="hover:cursor-pointer">{category}</a>
           </div>
           <div>
-            <button onClick={() => handleMarkRead(reading_time)}
-            className="font-semibold text-sm text-blue-500 hover:cursor-pointer hover:underline">
+            <button
+              onClick={() => handleMarkRead(reading_time)}
+              className="font-semibold text-sm text-blue-500 hover:cursor-pointer hover:underline"
+            >
               Mark as Read
             </button>
           </div>
