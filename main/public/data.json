@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://wallpaperaccess.com/full/1844002.jpg",
+    "blog_title": "The Art of Cooking: A Culinary Adventure",
+    "author": "Jane Smith",
+    "date": "2023-09-12",
+    "reading_time": "12 min read",
+    "category": "Food and Cooking"
+  },
+  {
+    "id": 2,
+    "cover_image": "https://wallpaperaccess.com/full/652483.jpg",
+    "blog_title": "Exploring Ancient History: Uncovering Lost Civilizations",
+    "author": "David Johnson",
+    "date": "2023-09-10",
+    "reading_time": "13 min read",
+    "category": "History"
+  },
+  {
+    "id": 3,
+    "cover_image": "https://wallpaperaccess.com/full/1393608.jpg",
+    "blog_title": "Elite Entrepreneurship: Effective Practices of the Best Entrepreneurs",
+    "author": "Raian Hasan",
+    "date": "2023-09-08",
+    "reading_time": "11 min read",
+    "category": "Business & Career"
+  },
+  {
+    "id": 4,
+    "cover_image": "https://wallpaperaccess.com/full/50921.jpg",
+    "blog_title": "Space Exploration: Journey to the Stars",
+    "author": "Emily Brown",
+    "date": "2023-09-06",
+    "reading_time": "07 min read",
+    "category": "Science and Technology"
+  },
+  {
+    "id": 5,
+    "cover_image": "https://wallpaperaccess.com/full/6464902.jpg",
+    "blog_title": "Adventure Travel: Trekking the Himalayas",
+    "author": "Evan Davis",
+    "date": "2023-09-04",
+    "reading_time": "08 min read",
+    "category": "Travel"
+  }
+]
