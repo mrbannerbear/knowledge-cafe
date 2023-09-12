@@ -5,7 +5,7 @@
     "blog_title": "The Art of Cooking: A Culinary Adventure",
     "author": "Jane Smith",
     "date": "2023-09-12",
-    "reading_time": "12 min read",
+    "reading_time": "12",
     "category": "Food and Cooking"
   },
   {
@@ -14,7 +14,7 @@
     "blog_title": "Exploring Ancient History: Uncovering Lost Civilizations",
     "author": "David Johnson",
     "date": "2023-09-10",
-    "reading_time": "13 min read",
+    "reading_time": "13",
     "category": "History"
   },
   {
@@ -23,7 +23,7 @@
     "blog_title": "Elite Entrepreneurship: Effective Practices of the Best Entrepreneurs",
     "author": "Raian Hasan",
     "date": "2023-09-08",
-    "reading_time": "11 min read",
+    "reading_time": "11",
     "category": "Business & Career"
   },
   {
@@ -32,7 +32,7 @@
     "blog_title": "Space Exploration: Journey to the Stars",
     "author": "Emily Brown",
     "date": "2023-09-06",
-    "reading_time": "07 min read",
+    "reading_time": "07",
     "category": "Science and Technology"
   },
   {
@@ -41,7 +41,7 @@
     "blog_title": "Adventure Travel: Trekking the Himalayas",
     "author": "Evan Davis",
     "date": "2023-09-04",
-    "reading_time": "08 min read",
+    "reading_time": "08",
     "category": "Travel"
   }
 ]
